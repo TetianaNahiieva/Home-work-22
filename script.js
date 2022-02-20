@@ -1,7 +1,6 @@
 //Події
 
 // Створити HTML-сторінку з блоком тексту в рамці. Реалізувати можливість змінювати розмір блоку, якщо затиснути мишку в правому нижньому кутку і тягнути її далі.
-
 const resDiv = document.getElementById("content__textarea");
 const resizer = document.querySelector("div.content__textarea--resizer");
 
@@ -66,8 +65,6 @@ document.body.addEventListener("keydown", (event) => {
 });
 
 // Створити HTML-сторінку з великою таблицею. При кліку на заголовок стовпця, необхідно відсортувати дані цього стовпця. Врахуй, що числові значення повинні сортуватися як числа, а не як рядки.
-
-
 const mainDiv = document.getElementById("content");
 
 const tableDiv = document.createElement("div");
